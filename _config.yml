@@ -1,0 +1,53 @@
+
+
+# Site Settings
+title: 						"Alex Sears"
+email: 						"alexwsears@gmail.com"
+description: 				"Tips and Tricks for Web Developers"
+baseurl: 					""
+url: 						"http://alexsears.com"
+logourl: 					"/assets/img/alexsears.jpg"
+fa-logo: 					"fa-code"
+paginate: 					5
+
+
+# Author Settings
+author_name: 				"Alex Sears"
+author_url: 				"http://alexsears.com"
+author_bio: 				"Developer. Drummer. Ginger"
+author_email: 				"alexwsears@gmail.com"
+author_image: 				"/assets/img/alexsears.jpg"
+
+
+# Social Settings
+twitter_url: 				"https://twitter.com/searsaw"
+facebook_url: 				"https://www.facebook.com/searsaw"
+github_url:  				"https://github.com/searsaw"
+youtube_url:  				""
+dribbble_url:  				""
+googleplus_url: 			""
+instagram_url:  			""
+pinterest_url:  			""
+linkedin_url:  				"https://www.linkedin.com/in/alexsears"
+
+
+# Theme Settings
+theme_disqus_shortname: 	"alexsears"
+theme_google_comments: 		false
+theme_analytics_id: 		"UA-40889338-2"
+theme_analytics_domain: 	"alexsears.com"
+theme_reading_time: 		true
+theme_autoload_comments: 	false
+theme_always_show_nav: 		false
+
+
+# SASS Settings
+# DO NOT MODIFY
+sass:
+ sass_dir: "assets/css/"
+ style: :compressed
+
+
+# Build Settings
+markdown: 					kramdown
+permalink: 					pretty
