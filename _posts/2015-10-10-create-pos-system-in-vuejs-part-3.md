@@ -45,7 +45,7 @@ To bring in the dependencies, we will use npm like we have been using so far.  R
 npm install --save-dev gulp browserify partialify vinyl-source-stream
 {% endhighlight %}
 
-This will install Gulp, Browserify, Partialify, and Vinyl-Source-Stream.  Gulp is a task runner.  Browserify allows us to use node syntax to bring in dependencies by `require`ing them.  It will then compile it all into one file for us.  Partialify is a [transform](https://github.com/substack/node-browserify/wiki/list-of-transforms) for Browseify that will let us put out templates in their own directories.  Lastly, Vinyl-Source-Stream will transform the output of Browserify into a stream that Gulp can understand.
+This will install Gulp, Browserify, Partialify, and Vinyl-Source-Stream.  Gulp is a task runner.  Browserify allows us to use node syntax to bring in dependencies by `require`ing them.  It will then compile it all into one file for us.  Partialify is a [transform](https://github.com/substack/node-browserify/wiki/list-of-transforms) for Browserify that will let us put our templates in their own directories.  Lastly, Vinyl-Source-Stream will transform the output of Browserify into a stream that Gulp can understand.
 
 Create a file in the root of the project and call it `gulpfile.js`.  Put the following code in it.
 
@@ -74,7 +74,7 @@ This is pretty simple node code.  It `require`s our dependencies we downloaded. 
 
 ## The Item Buttons
 
-Pretty much all of this will be copy-and-paste job.  First, let's clean up the requires in `app.js`.  Go to that file and remove the first and last lines to take the code out of the closure.  Then add the below lines to the top of the file:
+Pretty much all of this will be a copy-and-paste job.  First, let's clean up the requires in `app.js`.  Go to that file and remove the first and last lines to take the code out of the closure.  Then add the below lines to the top of the file:
 
 {% highlight javascript %}
 var Vue = require('vue');

@@ -77,11 +77,11 @@ components: {
 
 Here we are simply adding a components object which contains a single component &#8212; our item list.  Notice here we have used camelCase instead of lisp-case like we use in our HTML.  Since JavaScript doesn't allow hyphens in variable names, we have to use camelCase.  Don't worry though!  Vue will automatically make the conversion for us.
 
-We have to designate a template for this component to use.  Since we have already created the template, we just pass it a string the is a CSS selector for the template.
+We have to designate a template for this component to use.  Since we have already created the template, we just pass it a string that is a CSS selector for the template.
 
 Next, we tell the components what props it can accept.  It's just an array of strings that match the name of the props used in the HTML.
 
-Lastly, we can give our component methods.  In this case, we have a method that is fired when an item is clicked on.  It simply calls the `add` method, which is passed in as a prop, and passes the item to it.  This will call the parent's method that adds the item to it's internal `lineItems` array.
+Lastly, we can give our component methods.  In this case, we have a method that is fired when an item is clicked on.  It simply calls the `add` method, which is passed in as a prop, and passes the item to it.  This will call the parent's method that adds the item to its internal `lineItems` array.
 
 Go ahead and test it out.  It will function the same, but our code is a little more reusable.  Next, we tackle the transaction component.
 
@@ -181,7 +181,7 @@ Here we have just moved alot of the functionality from the parent into this comp
 
 That's it!  Though the functionality hasn't changed, we have extracted out the code that doesn't need to depend on each other.  This way we can reuse parts in other sections of our application without duplcating code.
 
-However, this setup isn't amazing.  Our index.html is still cluttered with templates and our component functionality is defined directly on the parent.  It would be better if we could encapsulate all this code into a single directory that could easily be copied to new projects as needed.  Not shockingly, there is a way!  [Check out the next and final piece of this series]({% post_url 2015-10-10-create-pos-system-in-vuejs-part-3 %}) to see how to use the task runner Gulp in conjunction with Browserify to make this possible!
+However, this setup isn't amazing.  Our `index.html` is still cluttered with templates and our component functionality is defined directly on the parent.  It would be better if we could encapsulate all this code into a single directory that could easily be copied to new projects as needed.  Not shockingly, there is a way!  [Check out the next and final piece of this series]({% post_url 2015-10-10-create-pos-system-in-vuejs-part-3 %}) to see how to use the task runner Gulp in conjunction with Browserify to make this possible!
 
 As usual, let me know how you feel in the comments.  Saying, "Hi," is always appreciated also!
 
