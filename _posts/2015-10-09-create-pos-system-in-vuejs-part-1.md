@@ -18,8 +18,8 @@ This is the first part of the Vue.js POS tutorial series.  If you haven't read t
 
 - [Create a POS System in Vue.js - Introduction]({% post_url 2015-10-08-create-pos-system-in-vuejs-intro %})
 - Create a POS System in Vue.js - Part 1
-- [Create a POS System in Vue.js - Part 2]({% post_url 2015-10-08-create-pos-system-in-vuejs-part-2 %})
-- [Create a POS System in Vue.js - Part 3]({% post_url 2015-10-08-create-pos-system-in-vuejs-part-3 %})
+- [Create a POS System in Vue.js - Part 2]({% post_url 2015-10-10-create-pos-system-in-vuejs-part-2 %})
+- [Create a POS System in Vue.js - Part 3]({% post_url 2015-10-10-create-pos-system-in-vuejs-part-3 %})
 
 All the code can be found in [the Github repo for this series](https://github.com/searsaw/pos-system-vuejs-blog).
 
@@ -251,7 +251,7 @@ Here we are simply outputting the values of those variables once filtered throug
 
 ## Wrap-up
 
-Well, we created a simple but functional POS system.  As you can see, Vue made that much easier than it would normally be using only jQuery.  Our code is pretty readable, but it could be better.  [Read the next post in this series]({% post_url 2015-10-08-create-pos-system-in-vuejs-part-2 %}) to see how we can split this up into templates and components to encapsulate some of this code.
+Well, we created a simple but functional POS system.  As you can see, Vue made that much easier than it would normally be using only jQuery.  Our code is pretty readable, but it could be better.  [Read the next post in this series]({% post_url 2015-10-10-create-pos-system-in-vuejs-part-2 %}) to see how we can split this up into templates and components to encapsulate some of this code.
 
 Also, let me know how you feel in the comments.  If you want to just say, "Hi," that's awesome too!
 
@@ -259,5 +259,5 @@ Also, let me know how you feel in the comments.  If you want to just say, "Hi," 
 
 - [Create a POS System in Vue.js - Introduction]({% post_url 2015-10-08-create-pos-system-in-vuejs-intro %})
 - Create a POS System in Vue.js - Part 1
-- [Create a POS System in Vue.js - Part 2]({% post_url 2015-10-08-create-pos-system-in-vuejs-part-2 %})
-- [Create a POS System in Vue.js - Part 3]({% post_url 2015-10-08-create-pos-system-in-vuejs-part-3 %})
+- [Create a POS System in Vue.js - Part 2]({% post_url 2015-10-10-create-pos-system-in-vuejs-part-2 %})
+- [Create a POS System in Vue.js - Part 3]({% post_url 2015-10-10-create-pos-system-in-vuejs-part-3 %})

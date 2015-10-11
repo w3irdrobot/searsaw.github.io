@@ -8,13 +8,13 @@ baseurl: 					""
 url: 						"http://alexsears.com"
 logourl: 					"/assets/img/alexsears.jpg"
 fa-logo: 					"fa-code"
-paginate: 					5
+paginate: 					8
 
 
 # Author Settings
 author_name: 				"Alex Sears"
 author_url: 				"http://alexsears.com"
-author_bio: 				"Developer. Drummer. Ginger"
+author_bio: 				"Developer. Drummer. Ginger."
 author_email: 				"alexwsears@gmail.com"
 author_image: 				"/assets/img/alexsears.jpg"
 
