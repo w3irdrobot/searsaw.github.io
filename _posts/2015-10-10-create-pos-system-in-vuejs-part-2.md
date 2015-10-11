@@ -5,6 +5,7 @@ author: Alex Sears
 layout: post
 guid: http://alexsears.com/?p=420
 permalink: /article/create-pos-system-in-vuejs-part-2
+seo_description: In this post, we will take the application from the previous post and abstract out the functionality into reusable components.
 categories:
   - Article
 tags:
@@ -13,8 +14,6 @@ tags:
 ---
 
 This is the second part of the Vue.js POS tutorial series.  If you haven't read the previous posts or want to skip ahead, below are the links for each part.
-
-<!--more-->
 
 - [Create a POS System in Vue.js - Introduction]({% post_url 2015-10-08-create-pos-system-in-vuejs-intro %})
 - [Create a POS System in Vue.js - Part 1]({% post_url 2015-10-09-create-pos-system-in-vuejs-part-1 %})

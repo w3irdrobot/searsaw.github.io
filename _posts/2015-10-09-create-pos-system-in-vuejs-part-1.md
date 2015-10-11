@@ -5,6 +5,7 @@ author: Alex Sears
 layout: post
 guid: http://alexsears.com/?p=419
 permalink: /article/create-pos-system-in-vuejs-part-1
+seo_description: Together, we will create a POS system using Vue.js, starting with a mockup and moving to a fully-functional application.
 categories:
   - Article
 tags:
@@ -13,8 +14,6 @@ tags:
 ---
 
 This is the first part of the Vue.js POS tutorial series.  If you haven't read the introduction or want to skip ahead, below are the links for each part.
-
-<!--more-->
 
 - [Create a POS System in Vue.js - Introduction]({% post_url 2015-10-08-create-pos-system-in-vuejs-intro %})
 - Create a POS System in Vue.js - Part 1

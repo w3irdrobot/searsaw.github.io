@@ -5,6 +5,7 @@ author: Alex Sears
 layout: post
 guid: http://alexsears.com/?p=418
 permalink: /article/create-pos-system-in-vuejs-intro
+seo_description: Vue.js is a view library that updates the physical DOM based on state managed in JavaScript. Together we will build a simple POS system that demonstrates its power.
 categories:
   - Article
 tags:
@@ -17,8 +18,6 @@ If you don't know what Vue.js is by now, then you have to check it out!  In case
 > Vue.js is a library for building modern web interfaces. It provides data-reactive components with a simple and flexible API.
 
 That isn't very specific.  Vue.js is a view library that updates the physical DOM based on state managed in JavaScript.  You manipulate the state and the webpage will update to reflect the changes.  Pretty cool, huh?  It's similar to React and can be thought of as a stripped down version of AngularJS.
-
-<!--more-->
 
 The thing people seem to dislike about libraries like Vue is that they don't have everything built in.  Angular has AJAX libraries, an awesome router, and other utilities that make it a "be-all and end-all" solution to one-page applications.  Sometimes, however, you don't need a giant framework.  Sometimes, you just want one page to act like that.  In these situations, you want something smaller.  One of the things I like about Vue the most is that it is bare.  I can use anything I want for AJAX interactions with a backend or any animation library I want because the library doesn't have one already.  It's very freeing.
 

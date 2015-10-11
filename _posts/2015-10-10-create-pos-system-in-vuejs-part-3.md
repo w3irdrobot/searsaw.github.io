@@ -5,6 +5,7 @@ author: Alex Sears
 layout: post
 guid: http://alexsears.com/?p=421
 permalink: /article/create-pos-system-in-vuejs-part-3
+seo_description: Learn how to move your Vue.js components into their own directories and use Gulp and Browserify to pull it all together.
 categories:
   - Article
 tags:

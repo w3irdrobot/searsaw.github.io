@@ -20,10 +20,14 @@ layout: default
 					Posted on <i class="fa fa-clock-o"></i><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>.
 				</span>
 				<div class="excerpt">
-					{% if post.content contains '<!--more-->' %}
-						{{ post.content | split:'<!--more-->' | first }}
+					{% if post.seo_description %}
+						<p>{{ post.seo_description }}</p>
 					{% else %}
-						{{ post.content }}
+						{% if post.content contains '<!--more-->' %}
+							{{ post.content | split:'<!--more-->' | first }}
+						{% else %}
+							{{ post.content }}
+						{% endif %}
 					{% endif %}
 				</div>
 			</header>
